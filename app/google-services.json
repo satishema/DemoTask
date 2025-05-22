@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "360843551086",
+    "project_id": "demotask-mit",
+    "storage_bucket": "demotask-mit.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360843551086:android:c56cfe43f3fbad8dac217f",
+        "android_client_info": {
+          "package_name": "com.highonswift.demotask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKKBacC7hFtnjqDJ8IqBujxOy6YbstyKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
