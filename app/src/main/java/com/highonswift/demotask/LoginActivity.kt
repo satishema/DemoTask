@@ -1,5 +1,6 @@
 package com.highonswift.demotask
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -54,6 +55,8 @@ class LoginActivity : AppCompatActivity() {
                     if (task.isSuccessful) {
                         txtView.text = "Logged in as: ${auth.currentUser?.email}"
                         Toast.makeText(this, "Login successful!", Toast.LENGTH_SHORT).show()
+                        val intent = Intent(this, WeatherActivity::class.java)
+                        startActivity(intent)
                     } else {
                         txtView.text = "Login failed"
                         Toast.makeText(this, "Error: ${task.exception?.message}", Toast.LENGTH_LONG)
